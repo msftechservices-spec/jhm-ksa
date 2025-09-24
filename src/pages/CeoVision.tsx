@@ -130,8 +130,8 @@ const CeoVision = () => {
               <div className="relative">
                 <div className="w-96 h-96 mx-auto">
                   <img 
-                    src="/public/Jassim.jpg"
-                    alt="Chairman"
+                    src="/jassim.jpg"
+                    alt="Chairman - Jassim Hassan Al Mohsin"
                     className="rounded-lg shadow-lg w-full h-full object-cover"
                   />
                 </div>
