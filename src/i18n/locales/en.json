@@ -1,0 +1,563 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services", 
+    "contact": "Contact",
+    "ceoVision": "CEO's Vision"
+  },
+  "company": {
+    "name": "JHM: Jassim Hassan Al Mohsin Est",
+    "nameShort": "JHM"
+  },
+  "hero": {
+    "title": "Welcome to JHM",
+    "subtitle": "Your Partner in Excellence",
+    "description": "Leading provider of comprehensive solutions in heavy equipment, contracting, software development, and support services across Saudi Arabia.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "title": "About JHM",
+    "subtitle": "Excellence in Every Service",
+    "description": "JHM is a leading multi-sector company based in Saudi Arabia, delivering exceptional solutions across heavy equipment, contracting, software development, and comprehensive support services.",
+    "experience": {
+      "title": "20+ Years",
+      "subtitle": "of Excellence"
+    },
+    "projects": {
+      "title": "500+",
+      "subtitle": "Projects Completed"
+    },
+    "clients": {
+      "title": "100+",
+      "subtitle": "Satisfied Clients"
+    },
+    "team": {
+      "title": "50+",
+      "subtitle": "Expert Team Members"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide innovative, reliable, and cost-effective solutions that exceed our clients' expectations while contributing to the growth and development of Saudi Arabia's infrastructure and technology sectors."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the most trusted and preferred partner for businesses seeking comprehensive solutions in heavy equipment, contracting, and technology services across the Middle East."
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive Solutions for Your Business",
+    "description": "We offer a complete range of professional services designed to meet your specific needs across multiple industries and sectors.",
+    "heavyEquipment": {
+      "title": "Heavy Equipment Rentals",
+      "description": "Premium quality equipment for all your construction and industrial needs",
+      "fleet": {
+        "title": "Our Equipment Fleet",
+        "description": "State-of-the-art heavy equipment available for rent with comprehensive support services"
+      },
+      "requestQuote": "Request Quote",
+      "benefits": {
+        "title": "Why Choose Our Equipment?",
+        "safety": {
+          "title": "Safety First",
+          "description": "All equipment undergoes rigorous safety inspections and maintenance"
+        },
+        "availability": {
+          "title": "24/7 Availability",
+          "description": "Round-the-clock support and emergency equipment deployment"
+        },
+        "operators": {
+          "title": "Certified Operators",
+          "description": "Highly trained and certified operators for all equipment types"
+        }
+      },
+      "equipment": {
+        "mobileCranes": {
+          "name": "Mobile Cranes",
+          "capacity": "25-500 Tons",
+          "description": "High-capacity mobile cranes for construction and industrial projects",
+          "features": {
+            "allTerrain": "All-terrain capability",
+            "certifiedOperators": "Certified operators",
+            "regularMaintenance": "Regular maintenance",
+            "support24x7": "24/7 support"
+          }
+        },
+        "lowBedTrailers": {
+          "name": "Low Bed Trailers",
+          "capacity": "50-150 Tons",
+          "description": "Specialized trailers for transporting heavy machinery and equipment",
+          "features": {
+            "multiAxle": "Multi-axle configurations",
+            "hydraulicSteering": "Hydraulic steering",
+            "loadSecuring": "Load securing systems",
+            "gpsTracking": "GPS tracking"
+          }
+        },
+        "flatbedTrucks": {
+          "name": "Flatbed Trucks",
+          "capacity": "10-40 Tons",
+          "description": "Versatile flatbed trucks for general cargo and equipment transport",
+          "features": {
+            "variousSizes": "Various sizes available",
+            "quickLoading": "Quick loading/unloading",
+            "flexibleScheduling": "Flexible scheduling",
+            "competitiveRates": "Competitive rates"
+          }
+        },
+        "excavators": {
+          "name": "Excavators",
+          "capacity": "20-80 Tons",
+          "description": "Heavy-duty excavators for earthmoving and construction projects",
+          "features": {
+            "latestTechnology": "Latest technology",
+            "fuelEfficient": "Fuel efficient",
+            "multipleAttachments": "Multiple attachments",
+            "skilledOperators": "Skilled operators"
+          }
+        }
+      },
+
+      "cta": {
+        "title": "Ready to Get Started?",
+        "description": "Contact us today for competitive rates and reliable equipment rental solutions",
+        "getQuote": "Get Quote Now",
+        "callNow": "Call +966 555 978 341"
+      }
+    },
+    "contracting": {
+      "title": "Contracting Services",
+      "description": "From infrastructure development to commercial construction, we deliver projects of all scales",
+      "servicesTitle": "Our Contracting Services",
+      "servicesDescription": "From infrastructure development to commercial construction, we deliver projects of all scales",
+      "capabilitiesTitle": "Our Capabilities",
+      "processTitle": "Our Construction Process",
+      "viewProjects": "View Projects",
+      "cta": {
+        "title": "Ready to Start Your Project?",
+        "description": "Let us bring your construction vision to life with our expertise and dedication",
+        "getQuote": "Get Project Quote",
+        "callUs": "Call +966 555 978 341"
+      },
+      "services": {
+        "infrastructure": {
+          "title": "Infrastructure Development",
+          "description": "Large-scale infrastructure projects including roads, bridges, and utilities",
+          "features": {
+            "roadConstruction": "Road construction",
+            "bridgeEngineering": "Bridge engineering",
+            "utilityInstallation": "Utility installation",
+            "sitePreparation": "Site preparation"
+          }
+        },
+        "commercial": {
+          "title": "Commercial Construction",
+          "description": "Modern commercial buildings and industrial facilities",
+          "features": {
+            "officeBuildings": "Office buildings",
+            "warehouses": "Warehouses",
+            "manufacturingFacilities": "Manufacturing facilities",
+            "retailSpaces": "Retail spaces"
+          }
+        },
+        "industrial": {
+          "title": "Industrial Projects",
+          "description": "Specialized industrial construction and facility development",
+          "features": {
+            "processingPlants": "Processing plants",
+            "storageFacilities": "Storage facilities",
+            "heavyMachinery": "Heavy machinery installation",
+            "safetySystems": "Safety systems"
+          }
+        },
+        "renovation": {
+          "title": "Renovation & Maintenance",
+          "description": "Comprehensive renovation and ongoing maintenance services",
+          "features": {
+            "buildingUpgrades": "Building upgrades",
+            "structuralRepairs": "Structural repairs",
+            "systemModernization": "System modernization",
+            "preventiveMaintenance": "Preventive maintenance"
+          }
+        }
+      },
+      "capabilities": {
+        "expertCraftsmanship": {
+          "title": "Expert Craftsmanship",
+          "description": "Skilled professionals with decades of construction experience"
+        },
+        "projectManagement": {
+          "title": "Project Management", 
+          "description": "End-to-end project management from planning to completion"
+        },
+        "collaborativeApproach": {
+          "title": "Collaborative Approach",
+          "description": "Working closely with clients to exceed expectations"
+        }
+      },
+      "stats": {
+        "projectsCompleted": "Projects Completed",
+        "yearsExperience": "Years Experience",
+        "clientSatisfaction": "Client Satisfaction",
+        "supportAvailable": "Support Available"
+      },
+      "process": {
+        "planning": {
+          "title": "Planning",
+          "description": "Detailed project planning and design"
+        },
+        "permits": {
+          "title": "Permits",
+          "description": "Obtaining all necessary permits and approvals"
+        },
+        "construction": {
+          "title": "Construction",
+          "description": "Professional construction execution"
+        },
+        "qualityCheck": {
+          "title": "Quality Check",
+          "description": "Rigorous quality assurance testing"
+        },
+        "handover": {
+          "title": "Handover",
+          "description": "Final inspection and project delivery"
+        }
+      }
+    },
+
+    "software": {
+      "title": "Software Solutions",
+      "description": "Custom software development and digital transformation services."
+    },
+    "softwareSolutions": {
+      "title": "Software Solutions",
+      "description": "Custom software development and digital transformation services for modern businesses",
+      "solutionsTitle": "Our Software Solutions",
+      "solutionsDescription": "Cutting-edge technology solutions designed to drive your business forward",
+      "benefitsTitle": "Why Choose Our Software Solutions?",
+      "processTitle": "Our Development Process",
+      "ctaTitle": "Ready to Transform Your Business?",
+      "ctaDescription": "Let us help you leverage technology to achieve your business objectives",
+      "getStarted": "Get Started Today",
+      "scheduleConsultation": "Schedule Consultation",
+      "learnMore": "Learn More",
+      "solutions": {
+        "webDevelopment": {
+          "title": "Web Development",
+          "description": "Modern, responsive web applications built with cutting-edge technologies",
+          "features": {
+            "reactNextjs": "React & Next.js",
+            "nodejsBackend": "Node.js Backend",
+            "cloudDeployment": "Cloud Deployment",
+            "seoOptimization": "SEO Optimization"
+          }
+        },
+        "mobileApplications": {
+          "title": "Mobile Applications",
+          "description": "Native and cross-platform mobile apps for iOS and Android",
+          "features": {
+            "reactNative": "React Native",
+            "flutterDevelopment": "Flutter Development",
+            "nativeIosAndroid": "Native iOS/Android",
+            "appStoreDeployment": "App Store Deployment"
+          }
+        },
+        "enterpriseSystems": {
+          "title": "Enterprise Systems",
+          "description": "Scalable enterprise software solutions for business operations",
+          "features": {
+            "erpSystems": "ERP Systems",
+            "crmSolutions": "CRM Solutions",
+            "inventoryManagement": "Inventory Management",
+            "businessIntelligence": "Business Intelligence"
+          }
+        },
+        "systemIntegration": {
+          "title": "System Integration",
+          "description": "Seamless integration of existing systems and third-party services",
+          "features": {
+            "apiDevelopment": "API Development",
+            "databaseMigration": "Database Migration",
+            "legacySystemUpdates": "Legacy System Updates",
+            "cloudIntegration": "Cloud Integration"
+          }
+        }
+      },
+      "benefits": {
+        "secureReliable": {
+          "title": "Secure & Reliable",
+          "description": "Enterprise-grade security and reliability in all our solutions"
+        },
+        "agileDevelopment": {
+          "title": "Agile Development",
+          "description": "Fast, iterative development process with regular client feedback"
+        },
+        "expertTeam": {
+          "title": "Expert Team",
+          "description": "Experienced developers with expertise in modern technologies"
+        }
+      },
+      "cta": {
+        "title": "Ready to Build Your Software Solution?",
+        "description": "Contact our software development team to discuss your project requirements",
+        "managerName": "Mohammed Saad Fazal",
+        "managerTitle": "Software Division Manager"
+      },
+      "process": {
+        "discovery": {
+          "title": "Discovery",
+          "description": "Understanding your requirements and business objectives"
+        },
+        "design": {
+          "title": "Design",
+          "description": "Creating user-centered designs and system architecture"
+        },
+        "development": {
+          "title": "Development",
+          "description": "Building robust, scalable software solutions"
+        },
+        "testing": {
+          "title": "Testing",
+          "description": "Comprehensive testing and quality assurance"
+        },
+        "deployment": {
+          "title": "Deployment",
+          "description": "Secure deployment and go-live support"
+        }
+      },
+      "technologies": {
+        "title": "Technologies We Use",
+        "description": "We leverage the latest technologies to build robust and scalable solutions",
+        "frontend": "Frontend Technologies",
+        "backend": "Backend Technologies",
+        "mobile": "Mobile Development",
+        "cloud": "Cloud & DevOps"
+      }
+    },
+    "support": {
+      "title": "Support Solutions",
+      "description": "24/7 technical support and maintenance services for all your business needs."
+    },
+    "supportSolutions": {
+      "title": "Support Solutions",
+      "description": "Reliable manpower and operational support to ensure your projects run smoothly",
+      "servicesTitle": "Our Support Services",
+      "servicesDescription": "Comprehensive support solutions designed to enhance your operational efficiency",
+      "benefitsTitle": "Why Choose Our Support Solutions?",
+      "processTitle": "Our Process",
+      "cta": {
+        "title": "Need Support Solutions?",
+        "description": "Let us provide the skilled workforce and technical support your project needs",
+        "requestConsultation": "Request Consultation",
+        "callUs": "Call +966 555 978 341"
+      },
+      "learnMore": "Learn More",
+      "services": {
+        "skilledManpower": {
+          "title": "Skilled Manpower",
+          "description": "Experienced professionals for all your operational needs",
+          "features": {
+            "certifiedTechnicians": "Certified technicians",
+            "multiSkilledWorkers": "Multi-skilled workers",
+            "projectManagers": "Project managers",
+            "safetySupervisors": "Safety supervisors"
+          }
+        },
+        "technicalSupport": {
+          "title": "Technical Support",
+          "description": "Comprehensive technical assistance and maintenance services",
+          "features": {
+            "equipmentMaintenance": "Equipment maintenance",
+            "troubleshooting": "Troubleshooting",
+            "repairServices": "Repair services",
+            "preventiveCare": "Preventive care"
+          }
+        },
+        "safetyManagement": {
+          "title": "Safety Management",
+          "description": "Complete safety solutions and compliance management",
+          "features": {
+            "safetyAudits": "Safety audits",
+            "riskAssessments": "Risk assessments",
+            "trainingPrograms": "Training programs",
+            "complianceMonitoring": "Compliance monitoring"
+          }
+        },
+        "trainingPrograms": {
+          "title": "Training Programs",
+          "description": "Professional development and skill enhancement programs",
+          "features": {
+            "equipmentOperation": "Equipment operation",
+            "safetyProtocols": "Safety protocols",
+            "technicalSkills": "Technical skills",
+            "certificationCourses": "Certification courses"
+          }
+        }
+      },
+      "benefits": {
+        "qualityAssurance": {
+          "title": "Quality Assurance",
+          "description": "All personnel undergo rigorous screening and certification processes"
+        },
+        "flexibleScheduling": {
+          "title": "Flexible Scheduling",
+          "description": "Adaptable workforce solutions to match your project timelines"
+        },
+        "industryExpertise": {
+          "title": "Industry Expertise",
+          "description": "Deep knowledge across construction, industrial, and technical sectors"
+        }
+      },
+      "process": {
+        "assessment": {
+          "title": "Assessment",
+          "description": "We analyze your specific requirements and project needs"
+        },
+        "planning": {
+          "title": "Planning",
+          "description": "Develop a customized support strategy for your project"
+        },
+        "deployment": {
+          "title": "Deployment",
+          "description": "Deploy qualified personnel and resources efficiently"
+        },
+        "monitoring": {
+          "title": "Monitoring",
+          "description": "Continuous monitoring and quality assurance throughout"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our specialized teams for your specific needs.",
+    "software": {
+      "title": "Software Division",
+      "name": "Mohammed Saad Fazal"
+    },
+    "general": {
+      "title": "General Services",
+      "name": "Shakeel Fazal",
+      "role": "Contracting & Equipment"
+    },
+    "office": {
+      "title": "Head Office",
+      "address1": "Abu Haidryah St. Cross 6/8",
+      "address2": "Al-Khobar 31952, Saudi Arabia",
+      "poBox": "P.O. Box 30122",
+      "tel": "Tel: 0134656742",
+      "fax": "Fax: 0138656720"
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "description": "Whether you need heavy equipment, contracting services, support solutions, or custom software development, our experienced team is ready to deliver exceptional results for your business.",
+      "sendEmail": "Send Email",
+      "callNow": "Call Now"
+    }
+  },
+  "ceoVision": {
+    "title": "CEO's Vision",
+    "name": "Shakeel Fazal",
+    "role": "Chief Executive Officer",
+    "quote": "At JHM, we don't just provide services – we build lasting partnerships that drive success and innovation across Saudi Arabia.",
+    "messageTitle": "A Message from Our CEO",
+    "vision": "Our vision extends beyond traditional business boundaries. We are committed to being the cornerstone of progress in the Kingdom, fostering growth through cutting-edge technology, reliable heavy equipment solutions, and unparalleled contracting services. Every project we undertake is a step towards building a stronger, more prosperous Saudi Arabia.",
+    "values": "We believe in the power of excellence, integrity, and innovation. Our diverse portfolio reflects our commitment to meeting the evolving needs of our clients while maintaining the highest standards of quality and professionalism.",
+    "pillars": {
+      "excellence": {
+        "title": "Strategic Excellence",
+        "description": "Delivering exceptional value through strategic planning and execution across all our business divisions."
+      },
+      "innovation": {
+        "title": "Innovation Leadership",
+        "description": "Pioneering cutting-edge solutions that transform industries and create sustainable competitive advantages."
+      },
+      "people": {
+        "title": "People First",
+        "description": "Investing in our team's growth and development while fostering a culture of collaboration and respect."
+      },
+      "expansion": {
+        "title": "Regional Expansion",
+        "description": "Expanding our footprint across the Middle East while maintaining our commitment to quality and service."
+      }
+    },
+    "futureVision": {
+      "title": "Our Vision for the Future",
+      "vision2030": {
+        "title": "Vision 2030",
+        "description": "To be the leading integrated solutions provider in the Middle East, recognized for our innovation, reliability, and commitment to sustainable growth while contributing to the economic development of the Kingdom of Saudi Arabia."
+      },
+      "commitment": {
+        "title": "Our Commitment",
+        "description": "We are committed to fostering a culture of innovation, investing in our people, embracing sustainable practices, and delivering exceptional value to our clients while maintaining the highest standards of integrity and excellence."
+      }
+    },
+    "strategicPillars": {
+      "title": "Strategic Pillars of Growth",
+      "description": "Our strategic framework is built on four fundamental pillars that guide our decision-making and drive sustainable growth across all business divisions."
+    },
+    "journey": {
+      "title": "Our Journey of Success",
+      "description": "Milestones that reflect our commitment to excellence and continuous growth"
+    },
+    "achievements": {
+      "years": {
+        "title": "20+ Years",
+        "subtitle": "Industry Leadership",
+        "description": "Two decades of consistent growth and innovation"
+      },
+      "clients": {
+        "title": "500+",
+        "subtitle": "Satisfied Clients",
+        "description": "Building lasting partnerships across industries"
+      },
+      "divisions": {
+        "title": "4 Divisions",
+        "subtitle": "Integrated Solutions",
+        "description": "Comprehensive services under one trusted brand"
+      },
+      "growth": {
+        "title": "Continuous Growth",
+        "subtitle": "Market Expansion",
+        "description": "Steady expansion and diversification"
+      }
+    },
+    "coreValues": {
+      "title": "Our Core Values",
+      "description": "The fundamental principles that guide our actions and define our character",
+      "integrity": {
+        "title": "Integrity",
+        "description": "We conduct business with the highest ethical standards and transparency in all our operations."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for perfection in every project, continuously improving our processes and outcomes."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "We build long-term relationships based on trust, reliability, and mutual success."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We embrace new technologies and methodologies to stay ahead of industry trends."
+      }
+    },
+    "lookingForward": {
+      "title": "Looking Forward",
+      "quote": "As we embark on our next chapter of growth, we remain steadfast in our commitment to innovation, excellence, and customer satisfaction. The future holds tremendous opportunities, and we are well-positioned to capitalize on them while staying true to the values that have brought us this far.",
+      "name": "Shakeel Fazal",
+      "role": "Chief Executive Officer",
+      "company": "JHM: Jassim Hassan Al Mohsin Est"
+    }
+  },
+  "footer": {
+    "description": "Leading provider of comprehensive solutions in heavy equipment, contracting, software development, and support services.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contactInfo": "Contact Information",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved."
+  }
+}
