@@ -2,9 +2,9 @@
   "nav": {
     "home": "Home",
     "about": "About Us",
-    "services": "Services", 
+    "services": "Services",
     "contact": "Contact",
-    "ceoVision": "CEO's Vision"
+    "ceoVision": "Vision"
   },
   "company": {
     "name": "JHM: Jassim Hassan Al Mohsin Est",
@@ -458,7 +458,18 @@
     }
   },
   "ceoVision": {
-    "title": "CEO's Vision",
+    "title": "Leadership Vision",
+    "chairmanVision": {
+      "title": "Chairman's Vision",
+      "name": "Jassim Hassan Al Mohsin",
+      "role": "Chairman",
+      "messageTitle": "A Message from Our Chairman",
+      "vision": "As we look towards the future, JHM stands as a testament to our unwavering commitment to excellence and innovation. Our journey began with a simple vision: to create value and drive progress in the Kingdom of Saudi Arabia through comprehensive, world-class solutions.",
+      "values": "We are dedicated to fostering sustainable growth, building lasting partnerships, and contributing to the realization of Saudi Arabia's Vision 2030. Our success is measured not just by our achievements, but by the positive impact we create in the communities we serve."
+    },
+    "ceoVision": {
+      "title": "CEO's Vision"
+    },
     "name": "Shakeel Fazal",
     "role": "Chief Executive Officer",
     "quote": "At JHM, we don't just provide services – we build lasting partnerships that drive success and innovation across Saudi Arabia.",
