@@ -48,7 +48,7 @@ const About = () => {
           
           <div className="relative">
             <img 
-              src="https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+              src="/public/cranes.jpg"
               alt="Construction equipment"
               className="rounded-lg shadow-lg w-full h-80 object-cover"
             />

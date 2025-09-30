@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { MapPin, Phone, Mail } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -6,6 +7,39 @@ import { useLanguage } from '../contexts/LanguageContext';
 const Footer = () => {
   const { t } = useTranslation();
   const { isRTL } = useLanguage();
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleNavigation = (path: string, sectionId?: string) => {
+    if (path === '/' && sectionId) {
+      if (location.pathname === '/') {
+        // Already on home page, just scroll to section
+        const element = document.getElementById(sectionId);
+        element?.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        // Navigate to home page first, then scroll
+        navigate('/');
+        setTimeout(() => {
+          const element = document.getElementById(sectionId);
+          element?.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    } else {
+      navigate(path);
+      // Scroll to top after navigation
+      setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }, 100);
+    }
+  };
+
+  const handleServiceNavigation = (path: string) => {
+    navigate(path);
+    // Scroll to top after navigation
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 100);
+  };
   return (
     <footer className="bg-gray-900 dark:bg-gray-950 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -50,34 +84,47 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <button 
-                  onClick={() => document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-200"
+                  onClick={() => {
+                    navigate('/');
+                    setTimeout(() => {
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }, 100);
+                  }}
+                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-200 text-left"
                 >
                   {t('nav.home')}
                 </button>
               </li>
               <li>
                 <button 
-                  onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-200"
+                  onClick={() => handleNavigation('/', 'about')}
+                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-200 text-left"
                 >
                   {t('nav.about')}
                 </button>
               </li>
               <li>
                 <button 
-                  onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-200"
+                  onClick={() => handleNavigation('/', 'services')}
+                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-200 text-left"
                 >
                   {t('nav.services')}
                 </button>
               </li>
               <li>
                 <button 
-                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-200"
+                  onClick={() => handleNavigation('/', 'contact')}
+                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-200 text-left"
                 >
                   {t('nav.contact')}
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => handleNavigation('/ceo-vision')}
+                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-200 text-left"
+                >
+                  {t('Vision')}
                 </button>
               </li>
             </ul>
@@ -86,11 +133,39 @@ const Footer = () => {
           {/* Services */}
           <div>
             <h4 className="text-lg font-semibold mb-4">{t('footer.services')}</h4>
-            <ul className="space-y-2 text-gray-300">
-              <li>{t('services.heavyEquipment.title')}</li>
-              <li>{t('services.support.title')}</li>
-              <li>{t('services.contracting.title')}</li>
-              <li>{t('services.software.title')}</li>
+            <ul className="space-y-2">
+              <li>
+                <button 
+                  onClick={() => handleServiceNavigation('/heavy-equipment')}
+                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-200 text-left"
+                >
+                  {t('services.heavyEquipment.title')}
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => handleServiceNavigation('/support-solutions')}
+                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-200 text-left"
+                >
+                  {t('services.support.title')}
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => handleServiceNavigation('/contracting')}
+                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-200 text-left"
+                >
+                  {t('services.contracting.title')}
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => handleServiceNavigation('/software-solutions')}
+                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-200 text-left"
+                >
+                  {t('services.software.title')}
+                </button>
+              </li>
             </ul>
           </div>
         </div>

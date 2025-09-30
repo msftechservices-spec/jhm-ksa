@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
@@ -12,6 +12,7 @@ const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
   const { t } = useTranslation();
   const { isRTL } = useLanguage();
 
@@ -33,6 +34,16 @@ const Header = () => {
       element.scrollIntoView({ behavior: 'smooth' });
     }
     setIsMenuOpen(false);
+  };
+
+  const handleNavigation = (path: string) => {
+    navigate(path);
+    setIsServicesOpen(false);
+    setIsMenuOpen(false);
+    // Scroll to top after navigation
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 100);
   };
 
   const services = [
@@ -116,13 +127,13 @@ const Header = () => {
                       className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-gray-100 py-2"
                     >
                       {services.map((service, index) => (
-                        <Link
+                        <button
                           key={index}
-                          to={service.path}
-                          className="block px-4 py-3 text-gray-700 hover:text-emerald-600 hover:bg-emerald-50 transition-colors duration-200"
+                          onClick={() => handleNavigation(service.path)}
+                          className="block w-full text-left px-4 py-3 text-gray-700 hover:text-emerald-600 hover:bg-emerald-50 transition-colors duration-200"
                         >
                           {service.name}
-                        </Link>
+                        </button>
                       ))}
                     </motion.div>
                   )}
@@ -190,14 +201,13 @@ const Header = () => {
                 <div className="px-3 py-2">
                   <p className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-2">{t('nav.services')}</p>
                   {services.map((service, index) => (
-                    <Link
+                    <button
                       key={index}
-                      to={service.path}
-                      onClick={() => setIsMenuOpen(false)}
-                      className="block px-3 py-2 text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md transition-colors duration-200"
+                      onClick={() => handleNavigation(service.path)}
+                      className="block w-full text-left px-3 py-2 text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md transition-colors duration-200"
                     >
                       {service.name}
-                    </Link>
+                    </button>
                   ))}
                 </div>
                 <button 
